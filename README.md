@@ -1,5 +1,5 @@
 # ProcessHealthChecker
-Use this library to check health of child processes, track them, fire event if any of the processes exited and always kill them if root process exits
+Use this library to check health of child processes, track them, fire event if any of the processes exited and **always kill them if root process exits**
 
 **How does it work**
 
