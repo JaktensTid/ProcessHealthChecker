@@ -3,7 +3,7 @@ Use this library to check health of child processes, track them, fire event if a
 
 **How does it work**
 
-**Usage #1 - track and kill all child processes in your program process exit**
+**Usage #1 - track and kill all child processes if your main process exits**
 
 It creates a new process tracker using windows' `kernel32.dll` function `CreateJobProcess` and assigns all child process to it by `RemoveOnRootProcessExit` function call
 
